@@ -96,7 +96,14 @@ todo_include_todos = False
 # -- Options for HTML output ----------------------------------------------
 
 html_theme = 'alabaster'
-html_theme_options = {}
+html_theme_options = {
+    'description': 'Description',
+    'github_user': 'jaantollander',
+    'github_repo': 'Sphinx-Alabaster-Template',
+    'github_button': True,
+    # 'github_banner': True,
+    'fixed_sidebar': True,
+}
 
 html_logo = None
 html_favicon = None
